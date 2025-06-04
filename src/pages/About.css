@@ -1,0 +1,81 @@
+.about-container {
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about-hero {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(to right, #f3f4f6, #e5e7eb);
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.about-hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.about-hero p {
+  font-size: 18px;
+  color: #555;
+}
+
+.about-team h2,
+.about-stats h2 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.member {
+  text-align: center;
+}
+
+.member img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.member h3 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.member p {
+  color: #777;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  background-color: #f9fafb;
+  padding: 20px 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.stat-box h3 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.stat-box p {
+  font-size: 16px;
+  color: #666;
+}
